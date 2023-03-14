@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+      <div id="container">
+        <h1 id="head">Task List</h1>
+        <div style="width: 210px; height: 80px;" id="combo">
+            <span id="icon" >&#43;</span>
+            <span id="text">Add List</span>
+        </div>
+        
+      </div>
+     <div id="main">
+       <div style="display: none;" id="listForm">
+        <h4 id="tag">Add New List</h4>
+        <form action="">
+          <input type="text" name="" id="listName" placeholder="Add New Task" height="55px"><br>
+          <button id="addList" type="button">Add</button>
+          <button  id="close" type="button"> Close</button>
+        </form>
+       </div>
+     </div>
+
+
+
+       <div id="secondContainer"> </div>
+           
+       
+        
+
+      
+        <div style="display: none;" id="itemForm">
+         <h4 id="newItemAdd">Add New Item</h4>
+         <form action="">
+           <input type="text" name="" id="itemList" placeholder="Add New Item" height="55px"><br>
+           <button id="addItem" type="button">Add</button>
+           <button  id="closeItem" type="button"> Close</button>
+         </form>
+        </div>
+     
+      <div id="backBtn" style="display: none;">
+         <span id="goBackIcon">	&#8656;</span>
+         <span id="goBackTaxt">Go Back</span>
+         <span id="getText"></span>
+      </div>
+
+     <div id="newDivForCard"></div>
+
+       
+    <script src="./script.js"></script>
+</body>
+</html> 
